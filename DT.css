@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*This Css is For Header*/
+.header{
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 80px;
+    background-color: white; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    border-inline-color: black;
+    border-image: fill;
+    justify-content: right;
+   
+}
+.navbar ul{
+    text-decoration: none;
+    display: flex;
+}
+.navbar ul li{
+    display: block;
+    justify-content: space-between;
+    display: block;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+}
+/*This for Second header*/
+.Container {
+    max-width: 6000px;
+    margin: 20px 10px 20px 0px;
+    padding: 20px 20px 20px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Container p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    color: blue;
+    font-size: larger;
+    justify-content: left;
+}
+.Container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    justify-content: right;
+    cursor: pointer;
+}
+.Container button:hover {
+    background-color: blue;
+}
+/*  Grey  Container*/
+.Grey {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+.Grey pre{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Grey p{
+    color:black;
+}
+/* Sidebars*/
+.sidebar1{
+    height: 100px;
+    width: 80px;
+    background-color: whitesmoke;
+}
+.sidebar1:hover{
+    height: 150px;
+    width: 100px;
+    
+}
+.sidebar1 h3{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+
+}
+/*4 Tabs*/
+.Tabs{
+    display: grid;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    color: white;
+    justify-content: center;
+}
+.T1{
+    background-color: white;
+    text-align: center;
+    border: 2px red;
+    color: black;
+    border-radius: 10px ;
+    border: 2px solid black;
+}
+.T1 h4{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 11px;
+}
+.T1 p{
+    padding: 5px;
+    font-size: x-small;
+}
+.T1 img{
+    padding: 8px;
+}
+.T2{
+    background-color: white;
+    text-align: center;
+    border: 2px red;
+    color: black;
+    border-radius: 10px ;
+    border: 2px solid black;
+}
+.T2 h4{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 11px;
+}
+.T2 p{
+    padding: 5px;
+    font-size:xx-small;
+}
+.T2 h3{
+    background-color: #ffffc5;
+    color: Black;
+}
+.Sub1 h6{
+    background-color: lightgrey;
+    display: flex;
+}
+.Sub1 textarea{
+    display: flex;
+}
+.Sub2 h6{
+    background-color: lightgrey;
+    display: flex;
+}
+.Sub2 textarea{
+    display: flex;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .control-btn {
+    background: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  select {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+.last button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.summary h4{
+    background-color: lightgrey;
+    color: black;
+    border-radius: 0;
+}
+.summary textarea{
+    padding: 2px;
+    display:block;
+    height: 6opx;
+    width: 300x;
+    border: 0.800;
+}
+.T3{
+    background-color: white;
+    text-align: center;
+    border: 2px red;
+    color: black;
+    border-radius: 10px ;
+    border: 2px solid black;
+}
+.T3 h4{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 11px;
+}
+.T3 p{
+    padding: 5px;
+    font-size: xx-small;
+}
+.T3 h3{
+    padding: 2px;
+   display: flex;
+}
+.T3 textarea{
+    padding: 2px;
+    border: 0.800;
+    margin: 5px;
+}
+.content{
+    background-color: whitesmoke;
+}
+.content a{
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+.content textarea{
+    padding: 2px;
+    border: 0.800;
+    margin: 5px;
+}
+.T4{
+    background-color: white;
+    text-align: center;
+    border: 2px red;
+    color: black;
+    border-radius: 10px ;
+    border: 2px solid black;
+}
+.T4 h4{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 11px;
+}
+.T4 p{
+    padding: 5px;
+    font-size: xx-small;
+}
+.T4 h3{
+    display: flex;
+    background-color: lightgray;
+    padding: 2px;
+    margin: 5px;
+}
+.T4 a{
+    display: flex;
+    justify-content: end;
+    color: gray;
+    font-size:small;
+}
